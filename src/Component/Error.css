@@ -1,0 +1,72 @@
+.error {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.center {
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 15%;
+  border: 2px solid #282c34;
+}
+
+.head {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+  padding-bottom: 5px;
+}
+.message {
+  margin-top: 15px;
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+}
+.btn {
+  /* margin-top: 40px; */
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+.btn1 {
+  background-color: #f44336;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 600;
+  width: 50px;
+  height: 30px;
+}
+.btn2 {
+  background-color: #2196f3;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 600;
+  width: 50px;
+  height: 30px;
+}
+.btn2:hover {
+  background-color: #0089fa;
+}
+.btn1:hover {
+  background-color: #ff1100;
+}
